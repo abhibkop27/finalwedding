@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Wedding Invitation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="book">
+    <div class="page-body">
+        <div class="page cover active" >
+            <div class="content">
+                <h1>Wedding Invitation</h1>
+                <div class="ornament">❈</div>
+                <h2>Priya & Rahul</h2>
+                <p>Request the pleasure of your company</p>
+            </div>
+        </div>
+    </div>
+        
+        <div class="page" data-page="2">
+            <div class="content">
+                <h2>The Wedding Ceremony</h2>
+                <p class="date">December 15th, 2024</p>
+                <p class="time">6:00 PM Onwards</p>
+                <div class="venue">
+                    <h3>Venue</h3>
+                    <p>Royal Garden Palace</p>
+                    <a href="https://maps.google.com/?q=Royal+Garden+Palace" target="_blank" class="map-link">View Location</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="page" data-page="3">
+            <div class="content">
+                <h2>Events</h2>
+                <div class="events">
+                    <div class="event">
+                        <h3>Mehendi</h3>
+                        <p>December 13th, 2024</p>
+                        <p>3:00 PM</p>
+                    </div>
+                    <div class="event">
+                        <h3>Sangeet</h3>
+                        <p>December 14th, 2024</p>
+                        <p>7:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page" data-page="4">
+            <div class="content">
+                <h2>RSVP</h2>
+                <form id="rsvpForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="number" placeholder="Number of Guests" required>
+                    <button type="submit">Confirm Attendance</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button id="prevBtn" class="nav-button" disabled>Previous</button>
+        <button id="nextBtn" class="nav-button">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
