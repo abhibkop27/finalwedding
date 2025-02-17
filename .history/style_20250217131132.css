@@ -198,6 +198,9 @@ button:hover {
         transition: none;
     }
 
+    .page:not(.active) {
+        opacity: 0.3;
+    }
 
     .page.active {
         opacity: 1;

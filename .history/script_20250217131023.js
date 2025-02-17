@@ -7,8 +7,8 @@ document.getElementById('rsvpForm').addEventListener('submit', function(e) {
 
 // Page Navigation
 const pages = document.querySelectorAll('.page');
-const prevBtn = document.getElementById('prevBtn');
-const nextBtn = document.getElementById('nextBtn');
+// const prevBtn = document.getElementById('prevBtn');
+// const nextBtn = document.getElementById('nextBtn');
 let currentPage = 1;
 const totalPages = pages.length;
 
@@ -38,11 +38,11 @@ function showPage(pageNumber) {
     updateButtons();
 }
 
-prevBtn.addEventListener('click', () => {
-    if (currentPage > 1) {
-        showPage(currentPage - 1);
-    }
-});
+// prevBtn.addEventListener('click', () => {
+//     if (currentPage > 1) {
+//         showPage(currentPage - 1);
+//     }
+// });
 
 nextBtn.addEventListener('click', () => {
     if (currentPage < totalPages) {
